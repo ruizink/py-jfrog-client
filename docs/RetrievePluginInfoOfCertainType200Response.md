@@ -1,0 +1,30 @@
+# RetrievePluginInfoOfCertainType200Response
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**executions** | **List[object]** |  | [optional] 
+**staging** | **List[object]** |  | [optional] 
+
+## Example
+
+```python
+from jfrog_client.models.retrieve_plugin_info_of_certain_type200_response import RetrievePluginInfoOfCertainType200Response
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of RetrievePluginInfoOfCertainType200Response from a JSON string
+retrieve_plugin_info_of_certain_type200_response_instance = RetrievePluginInfoOfCertainType200Response.from_json(json)
+# print the JSON string representation of the object
+print(RetrievePluginInfoOfCertainType200Response.to_json())
+
+# convert the object into a dict
+retrieve_plugin_info_of_certain_type200_response_dict = retrieve_plugin_info_of_certain_type200_response_instance.to_dict()
+# create an instance of RetrievePluginInfoOfCertainType200Response from a dict
+retrieve_plugin_info_of_certain_type200_response_from_dict = RetrievePluginInfoOfCertainType200Response.from_dict(retrieve_plugin_info_of_certain_type200_response_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
